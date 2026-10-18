@@ -1,0 +1,4 @@
+index loop (buggy):  [INV-1, INV-3, INV-4]
+for-each remove:     ConcurrentModificationException
+Iterator.remove:     [INV-1, INV-4]
+removeIf:            [INV-1, INV-4]

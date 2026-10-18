@@ -1,0 +1,11 @@
+ArrayList                    add duplicate: returns true     add null: returns true
+HashSet                      add duplicate: returns false    add null: returns true
+TreeSet (natural order)      add duplicate: returns false    add null: throws NullPointerException
+ArrayDeque                   add duplicate: returns true     add null: throws NullPointerException
+ConcurrentHashMap.newKeySet  add duplicate: returns false    add null: throws NullPointerException
+List.of(...).add("C")        throws UnsupportedOperationException
+List.of(...).contains(null)  throws NullPointerException
+List.of("A", null)           throws NullPointerException
+Set.of("A", "A")             throws IllegalArgumentException
+Arrays.asList(...).set(0, Z) returns A
+Arrays.asList(...).add(C)    throws UnsupportedOperationException

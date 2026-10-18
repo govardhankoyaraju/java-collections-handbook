@@ -1,0 +1,10 @@
+ArrayList      -> Collection, SequencedCollection, List, RandomAccess
+LinkedList     -> Collection, SequencedCollection, List, Queue, Deque
+ArrayDeque     -> Collection, SequencedCollection, Queue, Deque
+PriorityQueue  -> Collection, Queue
+HashSet        -> Collection, Set
+LinkedHashSet  -> Collection, SequencedCollection, Set, SequencedSet
+TreeSet        -> Collection, SequencedCollection, Set, SequencedSet, SortedSet, NavigableSet
+HashMap        -> Map
+LinkedHashMap  -> Map, SequencedMap
+TreeMap        -> Map, SequencedMap, SortedMap, NavigableMap

@@ -1,0 +1,8 @@
+new ArrayList<>(): size=0 capacity=0
+capacities seen while adding 50 elements: [10, 15, 22, 33, 49, 73]
+model predicts:                          [10, 15, 22, 33, 49, 73]
+after trimToSize(): size=50 capacity=50
+after ensureCapacity(51): capacity=75 (grows by max(needed, 50%))
+new ArrayList<>(1000) + 1000 adds: capacity=1000, resizes=0
+new ArrayList<>(0), capacity after each of 6 adds: [1, 2, 3, 4, 6, 6]
+copies to append 1,000,000 elements from new ArrayList<>(): 2430972

@@ -1,0 +1,12 @@
+size=1   table=16  bucket 10 node type=Node
+size=2   table=16  bucket 10 node type=Node
+size=3   table=16  bucket 10 node type=Node
+size=4   table=16  bucket 10 node type=Node
+size=5   table=16  bucket 10 node type=Node
+size=6   table=16  bucket 10 node type=Node
+size=7   table=16  bucket 10 node type=Node
+size=8   table=16  bucket 10 node type=Node
+size=9   table=32  bucket 10 node type=Node
+size=10  table=64  bucket 42 node type=Node
+size=11  table=64  bucket 42 node type=TreeNode
+lookup still correct: 7

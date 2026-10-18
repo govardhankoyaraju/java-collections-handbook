@@ -1,0 +1,7 @@
+keys=[apple, banana, cherry, damson] values=[12, 0, 7, 0]
+after put, keys=[apple, banana, cherry, damson, elder]
+after values.removeIf(q == 0): {apple=12, cherry=7, elder=3}
+after setValue x10: {apple=120, cherry=70, elder=30}
+keySet().add -> UnsupportedOperationException
+remove during for-each -> ConcurrentModificationException
+ceilingKey("c")=cherry headMap("d")={cherry=70}

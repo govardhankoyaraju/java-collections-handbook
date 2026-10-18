@@ -1,0 +1,8 @@
+get(same instance):          null
+get(new "SKU-1"):            null
+containsKey(same instance):  false
+size:                        1
+entry still iterates:        {SKU-1-RENAMED=10}
+remove(same instance):       null (cannot be found to remove)
+HashSet with one object added twice: size=2
+immutable key, remove + put: {Sku[code=SKU-1-RENAMED]=10}

@@ -1,0 +1,6 @@
+Node = 32 bytes, TreeNode = 56 bytes (model)
+   entries      table    table+nodes per entry (excl. keys/values)
+        12         16            464               38.7
+        13         32            560               43.1
+      1000       2048         40,208               40.2
+   1000000    2097152     40,388,624               40.4

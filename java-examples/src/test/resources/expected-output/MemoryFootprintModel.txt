@@ -1,0 +1,6 @@
+Model: 64-bit HotSpot, compressed oops, 12-byte headers, 8-byte alignment
+structure (n = 1,000,000)         bytes  bytes/element
+int[]                         4,000,016            4.0
+ArrayList<Integer>           20,000,040           20.0
+LinkedList<Integer>          40,000,032           40.0
+Objects allocated: int[] = 1, ArrayList = 1000002, LinkedList = 2000001

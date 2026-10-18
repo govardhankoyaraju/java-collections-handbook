@@ -1,0 +1,4 @@
+ customers     orders   scan comparisons index operations
+       100        100               5050              200
+      1000       1000             500500             2000
+     10000      10000           50005000            20000

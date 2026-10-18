@@ -1,0 +1,5 @@
+      size      indexed-loop hops        iterator hops
+        10                     20                    9
+      1000                 249500                  999
+    100000             2499950000                99999
+same results: true

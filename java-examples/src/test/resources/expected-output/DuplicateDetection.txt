@@ -1,0 +1,3 @@
+n=10     nested-loop comparisons=45         hash-set probes=10     duplicates=[customer0@example.com, customer1@example.com]
+n=1000   nested-loop comparisons=499500     hash-set probes=1000   duplicates=[customer0@example.com, customer1@example.com]
+n=10000  nested-loop comparisons=49995000   hash-set probes=10000  duplicates=[customer0@example.com, customer1@example.com]

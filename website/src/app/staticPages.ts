@@ -1,0 +1,11 @@
+/** Non-lesson pages that exist and are searchable. Only real, working pages belong here. */
+export const staticPages = [
+  { path: '/learn', title: 'Curriculum', section: 'Learn', description: 'All 26 modules from fundamentals to enterprise, with published and upcoming lessons.', keywords: 'curriculum modules lessons learning path' },
+  { path: '/practice', title: 'Practice', section: 'Practice', description: 'Practice exercises, interview questions and assessments from published lessons.', keywords: 'practice exercises interview questions quiz assessment' },
+  { path: '/reference', title: 'Reference', section: 'Reference', description: 'Hierarchy explorer, complexity reference and interactive models.', keywords: 'reference cheat sheet' },
+  { path: '/reference/hierarchy', title: 'Collections hierarchy explorer', section: 'Reference', description: 'Interactive map of Iterable, Collection, List, Set, Queue, Deque, Map, Sequenced, Sorted and Navigable interfaces and their implementations.', keywords: 'hierarchy interfaces implementations iterable collection map sequenced navigable explorer' },
+  { path: '/reference/complexity', title: 'Collection operation complexity', section: 'Reference', description: 'Time complexity of get, add, remove, contains and iteration for ArrayList, LinkedList, ArrayDeque, HashMap, LinkedHashMap, TreeMap, HashSet, TreeSet, PriorityQueue.', keywords: 'complexity big o table matrix cheat sheet operations' },
+  { path: '/reference/models/arraylist', title: 'ArrayList capacity simulator', section: 'Interactive model', description: 'Add, insert and remove elements and watch size, capacity, resizing and element shifting.', keywords: 'arraylist capacity grow resize simulator visualization' },
+  { path: '/reference/models/hashmap', title: 'HashMap bucket and resize simulator', section: 'Interactive model', description: 'Step through put, get and remove: hashing, spreading, bucket index, collisions, treeification and resizing.', keywords: 'hashmap bucket collision resize treeify simulator visualization' },
+  { path: '/progress', title: 'Progress, bookmarks and data', section: 'Settings', description: 'Module progress, bookmarks, and export/import of your learning progress as JSON.', keywords: 'progress bookmarks export import settings' },
+] as const;

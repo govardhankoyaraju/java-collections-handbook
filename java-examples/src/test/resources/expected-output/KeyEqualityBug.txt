@@ -1,0 +1,5 @@
+equal keys:            true
+broken lookup:         null
+broken map size:       2 (a duplicate key slipped in)
+classic key lookup:    Asha
+record key lookup:     Asha (again), size=1

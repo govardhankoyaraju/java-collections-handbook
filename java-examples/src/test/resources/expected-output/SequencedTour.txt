@@ -1,0 +1,10 @@
+ArrayList     first=validate, last=persist
+ArrayDeque    first=validate, last=persist
+LinkedHashSet first=new, last=export
+TreeSet       first=alpha, last=delta
+steps after reversed().addFirst("audit"): [validate, price, persist, audit]
+tags after addFirst("export"): [export, new, priority]
+TreeSet.addFirst -> UnsupportedOperationException
+map={SKU-1=9, SKU-2=5, SKU-3=0} firstEntry=SKU-1=9 reversed={SKU-3=0, SKU-2=5, SKU-1=9}
+pollLastEntry=SKU-3=0 map now={SKU-1=9, SKU-2=5}
+getFirst() on empty list -> NoSuchElementException

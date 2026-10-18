@@ -1,0 +1,17 @@
+key            hashCode()       spread  index
+ORD-1001       1993768940   1993738554     10
+ORD-1002       1993768941   1993738555     11
+Aa                   2112         2112      0
+BB                   2112         2112      0
+customer:42   -1772098662  -1772126779      5
+
+h          = 1001011001011111_1110101110011010
+h >>> 16   = 0000000000000000_1001011001011111
+h ^ h>>>16 = 1001011001011111_0111110111000101
+mask (15)  = 0000000000000000_0000000000001111
+index      = 5
+
+"Aa".hashCode() == "BB".hashCode(): true
+both keys still retrievable: Aa=2, BB=2
+null key is allowed in HashMap and hashes to 0; map.put(null, 0) returns null
+real table length=16, bucket 0 holds [Aa, BB]

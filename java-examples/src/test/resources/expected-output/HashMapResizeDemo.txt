@@ -1,0 +1,12 @@
+new HashMap<>():   table=0 (allocated lazily)
+after put #1       table=16   threshold=12
+after put #13      table=32   threshold=24
+after put #25      table=64   threshold=48
+after put #49      table=128  threshold=96
+after put #97      table=256  threshold=192
+
+16 slots, bucket 5: [5, 21, 37]
+32 slots, bucket 5: [5, 37]  bucket 21: [21]  (21 & 16 != 0 moves to 5 + 16)
+
+new HashMap<>(100) after 100 puts:    table=256 (resized once: 128 * 0.75 = 96 < 100)
+HashMap.newHashMap(100) after 100 puts: table=256 (ceil(100 / 0.75) = 134 -> 256, no resize)

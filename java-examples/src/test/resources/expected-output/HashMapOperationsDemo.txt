@@ -1,0 +1,9 @@
+get-then-put: NullPointerException (unboxing null)
+merge totals:        {acme=175000, globex=29900, initech=70000}
+computeIfAbsent:     {FAILED=[globex], PENDING=[initech], SETTLED=[acme, acme, globex]}
+compute family:      {job-1=1, job-3=3}
+putIfAbsent on null value returns null and stores asha
+putIfAbsent on present value returns asha and keeps asha
+computeIfAbsent returning null stores nothing: null, containsKey=false
+merge with a null value -> NullPointerException
+modifying the map inside computeIfAbsent -> ConcurrentModificationException

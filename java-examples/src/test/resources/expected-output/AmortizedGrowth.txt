@@ -1,0 +1,5 @@
+policy           appends   resizes         copies    copies/append
+ADD_ONE             1000       990         499455           499.46
+ADD_ONE           100000     99990     4999949955         49999.50
+MULTIPLY_1_5        1000        12           2456             2.46
+MULTIPLY_1_5      100000        23         213413             2.13
